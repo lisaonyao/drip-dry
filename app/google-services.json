@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "634522943307",
+    "firebase_url": "https://drip-and-dry.firebaseio.com",
+    "project_id": "drip-and-dry",
+    "storage_bucket": "drip-and-dry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634522943307:android:aa3c5da9d7bf8906",
+        "android_client_info": {
+          "package_name": "com.example.lisa.dripanddry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634522943307-jmk0hnqo4468d408pohvf913f2svh2ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lisa.dripanddry",
+            "certificate_hash": "20e9185949ba18bfda387c48db498e133dbcca45"
+          }
+        },
+        {
+          "client_id": "634522943307-3r4lch6hl1ncuecm6unut8h54ohn7tm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHhMOr3LEXHjsdSXDNXJmu0deoBnxbmSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634522943307-3r4lch6hl1ncuecm6unut8h54ohn7tm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
