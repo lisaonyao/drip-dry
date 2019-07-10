@@ -1,13 +1,13 @@
 package com.example.lisa.dripanddry;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class LaundryDetailsActivity extends AppCompatActivity {
+public class Flush extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_laundry_details);
+        setContentView(R.layout.activity_flush);
     }
 }

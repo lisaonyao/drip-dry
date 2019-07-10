@@ -29,6 +29,7 @@
     </RelativeLayout>
 
     <GridLayout
+        android:id="@+id/gridView"
         android:layout_weight="8"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -38,7 +39,7 @@
         android:columnOrderPreserved="false"
         android:padding="14dp"
         >
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -59,13 +60,14 @@
 
 
                 <ImageView
+                    android:id="@+id/imgWhiterose"
                     android:src="@drawable/whiterose"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -86,13 +88,15 @@
 
 
                 <ImageView
+                    android:id="@+id/imgFlush"
                     android:src="@drawable/flushdc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="flush"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -113,12 +117,14 @@
 
 
                 <ImageView
+                    android:id="@+id/imgcleanPoint"
                     android:src="@drawable/cleanpointdc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -131,6 +137,7 @@
             >
 
             <LinearLayout
+                android:onClick="micos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -139,12 +146,13 @@
 
 
                 <ImageView
+                    android:id="@+id/imgMicos"
                     android:src="@drawable/micosdc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -165,12 +173,13 @@
 
 
                 <ImageView
+                    android:id="@+id/imgTintoria"
                     android:src="@drawable/tintoriadc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -191,12 +200,13 @@
 
 
                 <ImageView
+                    android:id="@+id/imgRoyal"
                     android:src="@drawable/royaldc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </GridLayout>
 

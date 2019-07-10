@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">Drip and Dry</string>
+    <string-array name="whiterose">
+        <item>0800hrs</item>
+        <item>1800hrs</item>
+        <item>Ksh 1000</item>
+        <item>Ksh 500</item>
+        <item>Ksh 800</item>
+    </string-array>
+    <string-array name="flush">
+        <item>0900hrs</item>
+        <item>1900hrs</item>
+        <item>Ksh 800</item>
+        <item>Ksh 600</item>
+        <item>Ksh 400</item>
+    </string-array>
+    <string-array name="cleanpoint">
+        <item>0700hrs</item>
+        <item>1900hrs</item>
+        <item>Ksh 900</item>
+        <item>Ksh 500</item>
+        <item>Ksh 300</item>
+    </string-array>
+    <string-array name="micos">
+        <item>0600hrs</item>
+        <item>2200hrs</item>
+        <item>Ksh 700</item>
+        <item>Ksh 550</item>
+        <item>Ksh 300</item>
+    </string-array>
+    <string-array name="tintoria">
+        <item>0900hrs</item>
+        <item>1700hrs</item>
+        <item>Ksh 1500</item>
+        <item>Ksh 1000</item>
+        <item>Ksh 700</item>
+    </string-array>
+    <string-array name="royal">
+        <item>0900hrs</item>
+        <item>2000hrs</item>
+        <item>Ksh 750</item>
+        <item>Ksh 400</item>
+        <item>Ksh 200</item>
+    </string-array>
 </resources>
